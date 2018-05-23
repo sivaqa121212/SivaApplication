@@ -1,0 +1,10 @@
+package stepDefination;
+
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@Cucumber.Options(features="NewTours")
+
+public class TestRunner {
+
+}

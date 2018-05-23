@@ -1,0 +1,24 @@
+package newToursApplicationTesting;
+
+public class NewTours_LogInTest 
+{
+
+	@Given("^Open FireFox Browser and navigate to newTours Application$")
+	public void Open_FireFox_Browser_and_navigate_to_newTours_Application() throws Throwable
+	{
+	    
+	}
+
+	@When("^User enters valid UserName and Password and CLick on SignIn button$")
+	public void User_enters_valid_UserName_and_Password_and_CLick_on_SignIn_button() throws Throwable
+	{
+	    
+	}
+
+	@Then("^User should be able to successfully LogIn and Close the application$")
+	public void User_should_be_able_to_successfully_LogIn_and_Close_the_application() throws Throwable 
+	{
+	
+	}
+	
+}

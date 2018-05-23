@@ -1,0 +1,18 @@
+package com.BrowserAutomation;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ChromeBrowserAutomation {
+
+	public static void main(String[] args)
+	{
+		System.setProperty("webdriver.chrome.drivier", "C:\\Users\\sivakoganti\\Desktop\\SeleniumPractice\\WebApplicationTesting\\DriverFiles\\chromedriver.exe");
+		
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("http://bing.com");
+		
+		driver.close();
+
+	}
+
+}
